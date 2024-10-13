@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from 'next/link';
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-sans">
@@ -41,7 +41,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 items-center sm:items-start mt-6">
               <a
                 className="rounded-lg border border-solid border-gray-300 dark:border-gray-700 transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-gray-200 dark:hover:bg-gray-800 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="/assignments/routing"
+                href="/about"
               >
                 File-Based Routing Assignment
               </a>
@@ -70,7 +70,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 items-center sm:items-start mt-6">
               <a
                 className="rounded-lg border border-solid border-gray-300 dark:border-gray-700 transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-gray-200 dark:hover:bg-gray-800 text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="/assignments/dynamic-routes"
+                href="/posts"
               >
                 Dynamic Routes Assignment
               </a>
