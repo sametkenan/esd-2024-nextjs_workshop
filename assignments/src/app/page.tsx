@@ -107,13 +107,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
+          
           Next.js Docs
         </a>
         <a
@@ -122,13 +116,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
+          
           Examples
         </a>
         <a
@@ -137,13 +125,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
+          
           Go to Next.js →
         </a>
       </footer>
