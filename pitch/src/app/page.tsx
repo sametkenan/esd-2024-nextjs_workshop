@@ -13,6 +13,7 @@ import {
   Code,
   ImageIcon,
   Palette,
+  Clapperboard,
 } from "lucide-react";
 
 const features = [
@@ -228,6 +229,41 @@ export default function TailwindExample() {
 
 // This is accessible at /tailwind-example`,
     link: "/tailwind", // Link to the actual implemented Tailwind page
+  },
+  {
+    title: "Showcase",
+    description:
+      "Next.js supports various CSS solutions, including Tailwind CSS, providing flexibility for styling.",
+    icon: Palette,
+    gradient: "from-green-500 to-blue-500",
+    details:
+      "Tailwind CSS offers a utility-first approach to styling, making it easy to build responsive and modern interfaces in Next.js without writing custom CSS files.",
+    code: `// src/app/tailwind-example/page.tsx
+export default function TailwindExample() {
+  return (
+    <div className="min-h-screen bg-gradient-to-r from-green-400 to-blue-500 flex flex-col justify-center items-center text-white p-10">
+      <h1 className="text-5xl font-bold mb-6">Tailwind CSS Support</h1>
+      <p className="text-lg mb-8 text-center">
+        This page is styled entirely with Tailwind CSS, showcasing its utility-first approach.
+      </p>
+      <button className="bg-white text-green-500 hover:bg-green-500 hover:text-white font-semibold py-2 px-4 rounded transition duration-300">
+        Click Me
+      </button>
+    </div>
+  );
+}
+
+// This is accessible at /tailwind-example`,
+    link: "/tailwind", // Link to the actual implemented Tailwind page
+  },
+  {
+    title: "Showcase",
+    description: "Who uses Next?",
+    icon: Clapperboard,
+    gradient: "",
+
+    // This is accessible at /tailwind-example`,
+    link: "https://nextjs.org/showcase", // Link to the actual implemented Tailwind page
   },
 ];
 
